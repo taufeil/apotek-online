@@ -48,8 +48,8 @@
           <div class="main-nav d-none d-lg-block">
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu fe/js-clone-nav d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Store</a></li>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="{{route('shop.page')}}">Store</a></li>
                 <li class="has-children">
                   <a href="#">Dropdown</a>
                   <ul class="dropdown">
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="site-blocks-cover" style="background-image: url('fe/images/hero_1.jpg');">
+    <div class="site-blocks-cover" style="background-image: url('fe/images/hero__1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
@@ -94,7 +94,7 @@
               <h2 class="sub-title">Welcome to the pharmacy</h2>
               <h1>Apotek Taufeil</h1>
               <p>
-                <a href="#" class="btn btn-primary px-5 py-3">Shop Now</a>
+                <a href="{{route('shop.page')}}" class="btn btn-primary px-5 py-3">Shop Now</a>
               </p>
             </div>
           </div>
@@ -154,30 +154,30 @@
         <div class="row">
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <span class="tag">Sale</span>
-            <a href="shop-single.html"> <img src="fe/images/product1.png" alt="Image" width="200" height= "300"></a>
-            <h3 class="text-dark text-align" style="margin-top: 30px;"><a href="shop-single.html">Bioderma</a></h3>
-            <p class="price text-align"><del>95.00</del> &mdash; $55.00</p>
+            <a href="shop-single.html"> <img src="fe/images/product1.jpg" alt="Image" width="200" height= "200"></a>
+            <h3 class="text-dark text-align" style="margin-top: 30px;"><a href="shop-single.html">Pil Orils</a></h3>
+            <p class="price text-align"><del>Rp 95.000</del> &mdash; Rp 50.000</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
-            <a href="shop-single.html"> <img src="fe/images/product_02.png" alt="Image"></a>
-            <h3 class="text-dark"><a href="shop-single.html">Chanca Piedra</a></h3>
-            <p class="price">$70.00</p>
+            <a href="shop-single.html"> <img src="fe/images/product2.png" alt="Image" width="200" height="200"></a>
+            <h3 class="text-dark text-align"><a href="shop-single.html">Acnes</a></h3>
+            <p class="price text-align">Rp 70.000</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
-            <a href="shop-single.html"> <img src="fe/images/product_03.png" alt="Image"></a>
-            <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-            <p class="price">$120.00</p>
+            <a href="shop-single.html"> <img src="fe/images/product3.png" alt="Image" width="200" height="200"></a>
+            <h3 class="text-dark text-align"><a href="shop-single.html">Povidon</a></h3>
+            <p class="price text-align">Rp 120.000</p>
           </div>
 
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
 
-            <a href="shop-single.html"> <img src="fe/images/product_04.png" alt="Image"></a>
-            <h3 class="text-dark"><a href="shop-single.html">Cetyl Pure</a></h3>
-            <p class="price"><del>45.00</del> &mdash; $20.00</p>
+            <a href="shop-single.html"> <img src="fe/images/product_4.jpg" alt="Image" width="200" height="200"></a>
+            <h3 class="text-dark text-align"><a href="shop-single.html">Ming Sep</a></h3>
+            <p class="price text-align"><del>45.00</del> &mdash; Rp 20.000</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <a href="shop-single.html"> <img src="fe/images/product_05.png" alt="Image"></a>
-            <h3 class="text-dark"><a href="shop-single.html">CLA Core</a></h3>
+            <h3 class="text-dark"><a href="shop-single.html">Pitagon</a></h3>
             <p class="price">$38.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
@@ -338,7 +338,7 @@
             <h3 class="footer-heading mb-4">Quick Links</h3>
             <ul class="list-unstyled">
               <li><a href="#">Supplements</a></li>
-              <li><a href="#">Vitamins</a></li>
+              <li><a href="#">Vitamins</a> A B C</li>
               <li><a href="#">Diet &amp; Nutrition</a></li>
               <li><a href="#">Tea &amp; Coffee</a></li>
             </ul>

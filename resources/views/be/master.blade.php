@@ -15,50 +15,50 @@
     <link href="be/https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('be/css/bootstrap.min.css')}}">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('be/css/font-awesome.min.css')}}">
     <!-- owl.carousel CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/owl.carousel.css">
-    <link rel="stylesheet" href="be/css/owl.theme.css">
-    <link rel="stylesheet" href="be/css/owl.transitions.css">
+    <link rel="stylesheet" href="{{asset('be/css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('be/css/owl.theme.css')}}">
+    <link rel="stylesheet" href="{{asset('be/css/owl.transitions.css')}}">
     <!-- animate CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/animate.css">
+    <link rel="stylesheet" href="{{asset('be/css/animate.css')}}">
     <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/normalize.css">
+    <link rel="stylesheet" href="{{asset('be/css/normalize.css')}}">
     <!-- meanmenu icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/meanmenu.min.css">
+    <link rel="stylesheet" href="{{asset('be/css/meanmenu.min.css')}}">
     <!-- main CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/main.css">
+    <link rel="stylesheet" href="{{asset('be/css/main.css')}}">
     <!-- educate icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/educate-custon-icon.css">
+    <link rel="stylesheet" href="{{asset('be/css/educate-custon-icon.css')}}">
     <!-- morrisjs CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/morrisjs/morris.css">
+    <link rel="stylesheet" href="{{asset('be/css/morrisjs/morris.css')}}">
     <!-- mCustomScrollbar CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="{{asset('be/css/scrollbar/jquery.mCustomScrollbar.min.css')}}">
     <!-- metisMenu CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="be/css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="{{asset('be/css/metisMenu/metisMenu.min.css')}}">
+    <link rel="stylesheet" href="{{asset('be/css/metisMenu/metisMenu-vertical.css')}}">
     <!-- calendar CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="be/css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="{{asset('be/css/calendar/fullcalendar.min.css')}}">
+    <link rel="stylesheet" href="{{asset('be/css/calendar/fullcalendar.print.min.css')}}">
     <!-- style CSS
 		============================================ -->
     <link rel="stylesheet" href="be/style.css">
     <!-- responsive CSS
 		============================================ -->
-    <link rel="stylesheet" href="be/css/responsive.css">
+    <link rel="stylesheet" href="{{asset('be/css/responsive.css')}}">
     <!-- modernizr JS
 		============================================ -->
     <script src="be/js/vendor/modernizr-2.8.3.min.js"></script>
